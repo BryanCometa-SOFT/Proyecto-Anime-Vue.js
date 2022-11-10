@@ -1,0 +1,102 @@
+.negro{
+    background-color: #000000; 
+}
+
+.moradoClaro{
+    background-color: #E487FB;
+}
+
+.moradoMedio{
+    background-color: #CA38ED;
+}
+
+.moradoOscuro{
+    background-color: #3E1149; 
+}
+
+.grisClaro{
+    background-color: #BCB1BF;
+}
+
+.grisOscuro{
+    background-color: #574E5A;
+}
+
+.moradoClaroText{
+  color: #E487FB !important;
+}
+
+.moradoMedioText{
+  color: #CA38ED !important;
+}
+
+.moradoOscuroText{
+  color: #3E1149 !important;
+}
+
+.textoPequeno{
+  font-size: 14px;
+}
+.textoMedio{
+  font-size: 16px;
+}
+.textoGrande{
+  font-size: 18px;
+}
+.tituloGigante{
+  font-size: 36px;
+}
+
+.buttonPersonalizado{
+  width: 338px !important;
+  height: 60px !important;
+  background: #E487FB !important;
+  border-radius: 10px !important;
+}
+
+.inputPersonalizado{
+  width: 343px !important;
+  height: 60px !important;
+  background-color: rgba(255, 255, 255, 0.47) !important;
+  border: 2px solid #FFFFFF !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+  color: #D8D5D9 !important;
+}
+
+.colorGrisInput{
+    background-color: rgba(255, 255, 255, 0.47) !important;
+}
+
+.tamanoGrisInput{
+  width: 343px !important;
+  height: 60px !important;
+  border: 2px solid #FFFFFF !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+}
+
+.tamanoPage{
+    height: 1024px ; 
+}
+
+.lineaHr {
+  height: 2px;
+  background-color:white;
+  width: 80px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 960px) {
+  .degradadoMovil{
+    background: linear-gradient(to bottom, #CA38ED, #000000);  
+    border-radius: 20px;
+  }
+}
+@media (min-width: 961px) {
+  .degradadoMovil{
+    background-color: #000000;   
+  }
+}
+
